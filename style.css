@@ -83,10 +83,12 @@ button:hover{
   transform:scale(80%);
   position:absolute;
   top:20%;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0%;
   }
   header{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
     width: 200px;
   }
   h1{
