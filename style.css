@@ -73,7 +73,7 @@ button:hover{
   }
   button{
     position:absolute;
-    top: 1200%;
+    top: 1800%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 1.5rem;
