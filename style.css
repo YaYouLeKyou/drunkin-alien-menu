@@ -71,7 +71,7 @@ button:hover{
     overflow: hidden;
   }
   button{
-    top: 85%;
+    bottom: 0%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 2rem;
