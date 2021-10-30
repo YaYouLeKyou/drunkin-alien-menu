@@ -80,10 +80,10 @@ button:hover{
     justify-content: center;
   }
   canvas{
-  transform:scale(70%);
+  
   position:absolute;
-  top:20%;
-  left: 0%;
+  top:5%;
+  left: 50%;
   }
   header{
     position: absolute;
