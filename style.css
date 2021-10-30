@@ -85,10 +85,9 @@ button:hover{
   top:20%;
   left: 50%;
   transform: translateX(-50%);
-  overflow: hidden;
- 
-  
-  
+  }
+  header{
+    width: 200px;
   }
   h1{
     width: 200px;
