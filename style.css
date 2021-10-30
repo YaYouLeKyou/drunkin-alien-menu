@@ -71,10 +71,11 @@ button:hover{
     background: black;
   }
   button{
-    bottom: 5%;
+    bottom: 2%;
     left: 50%;
     font-size: 2rem;
-    padding: 20px 40px 80px 40px;
+    background: none;
+    border: none;
     justify-content: center;
   }
 }
