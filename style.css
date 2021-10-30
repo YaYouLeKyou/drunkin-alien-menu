@@ -37,7 +37,6 @@ h1 {
   background-size: cover;
 }
 canvas{
-
   position: absolute;
   top: -4%;
   left: 50%;
@@ -72,6 +71,7 @@ button:hover{
     overflow: hidden;
   }
   button{
+    top: 95%;
     left: 50%;
     font-size: 2rem;
     background: none;
@@ -79,11 +79,15 @@ button:hover{
     justify-content: center;
   }
   canvas{
-    scale: 0.5;
-    
+  transform:scale(80%);
+  position:absolute;
+  top:20%;
+  left: 7%;
+  
+  
   }
   h1{
-    padding: 4px;
+    padding: 4px 4px;
     font-size: 1.5rem;
     
   }
