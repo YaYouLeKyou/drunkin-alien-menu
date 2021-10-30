@@ -69,6 +69,7 @@ button:hover{
 @media all and (max-width:600px){
   body{
     background: black;
+    overflow: hidden;
   }
   button{
     bottom: 2%;
@@ -79,7 +80,7 @@ button:hover{
     justify-content: center;
   }
   canvas{
-    scale: 1/2;
+    scale: 0.5;
   }
 }
 
