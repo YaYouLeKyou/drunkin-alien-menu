@@ -69,16 +69,14 @@ button:hover{
   body{
     background: black;
     overflow: hidden;
+    transform: scale(0.8);
   }
   button{
-    position: absolute;
-    bottom: 0%;
+    position:absolute;
+    top: 1600%;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 2rem;
-    background: none;
-    border: none;
-    justify-content: center;
+    font-size: 1.5rem;
   }
   canvas{
   overflow: hidden;
