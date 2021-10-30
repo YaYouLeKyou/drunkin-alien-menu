@@ -9,7 +9,7 @@ body {
   user-select: none;
   background-color: black;
   background-image: url("media/gameboy1.jpg");
- 
+  overflow: hidden;
   background-size: 80vh;
   background-attachment:fixed;
   background-repeat: no-repeat;
@@ -73,6 +73,7 @@ button:hover{
   button{
     top: 95%;
     left: 50%;
+    transform: translateX(-50%);
     font-size: 2rem;
     background: none;
     border: none;
@@ -82,12 +83,14 @@ button:hover{
   transform:scale(80%);
   position:absolute;
   top:20%;
-  left: 7%;
+  transform: translateX(-50%);
+ 
   
   
   }
   h1{
     padding: 4px 4px;
+    margin: 0%;
     font-size: 1rem;
     
   }
