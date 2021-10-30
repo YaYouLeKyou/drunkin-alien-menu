@@ -66,20 +66,18 @@ button:hover{
 
 }
 
-/* @media all and (max-width:1150px){
+@media all and (max-width:600px){
   body{
-  background-size: cover;
+    background: black;
   }
-  header{
-    position: absolute;
-    top: -1%;
+  button{
+    bottom: 5%;
     left: 50%;
-    transform: translate(-50%);
+    font-size: 2rem;
+    padding: 20px 40px 80px 40px;
+    justify-content: center;
   }
-  canvas{
-    top: -12%;
-  }
-} */
+}
 
 
 
