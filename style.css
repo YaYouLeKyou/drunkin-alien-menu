@@ -78,6 +78,9 @@ button:hover{
     border: none;
     justify-content: center;
   }
+  canvas{
+    scale: 2/3;
+  }
 }
 
 
